@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Minghao Li's Homepage"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Minghao Li"
 description              : &description "Minghao Li's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -27,9 +27,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Researcher focusing on robotics and related fields." # 自行修改个人简介
   location         : "China" # 自行修改所在地
-  employer         : "Your University / Institution" # 自行修改单位/学校
+  employer         : "Stategrid Nanjing Automation Co .Ltd / ZJU" # 自行修改单位/学校
   uri              : # URL
-  email            : "your-email@example.com" # 替换为你的邮箱
+  email            : "22125020@zju.edu.cn" # 替换为你的邮箱
 
   # Academic websites
   academia         : # URL
