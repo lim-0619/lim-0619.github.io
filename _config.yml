@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Minghao Li's Homepage"
 title_separator          : "-"
-name                     : &name "Minghao Li (李明昊)"
+name                     : &name "Minghao Li"
 description              : &description "Minghao Li's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://lim-0619.github.io # 替换为你的 GitHub Pages 域名 格式：https://你的用户名.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "lim-0619/lim-0619.github.io" # 替换为你的仓库
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Minghao Li"
+  name             : "Minghao Li (李明昊)"
   pronouns         : # example: "she/her"  
   bio              : "Researcher focusing on robotics and related fields." # 自行修改个人简介
   location         : "China" # 自行修改所在地
