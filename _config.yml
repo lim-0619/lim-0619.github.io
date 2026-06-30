@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Minghao Li (李明昊)"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher focusing on robotics and related fields." # 自行修改个人简介
+  bio              : "Engineer focusing on robotics and related fields." # 自行修改个人简介
   location         : "China" # 自行修改所在地
-  employer         : "Guodian Nanjing Automation Co., Ltd.(SAC)" # 自行修改单位/学校
+  employer         : "Guodian Nanjing Automation Co., Ltd." # 自行修改单位/学校
   uri              : # URL
-  email            : "22125020@zju.edu.cn" # 替换为你的邮箱
+  email            : "raphael_li@zuaa.zju.edu.cn" # 替换为你的邮箱
 
   # Academic websites
   academia         : # URL
