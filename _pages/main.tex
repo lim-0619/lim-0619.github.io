@@ -1,0 +1,178 @@
+
+\documentclass[10pt,a4paper]{article}
+
+% ====================== 页面基础配置 ======================
+\usepackage{geometry}
+\geometry{left=2.0cm, right=2.0cm, top=2.0cm, bottom=2.0cm}
+\usepackage{setspace}
+\setstretch{1.12}
+\usepackage{xcolor}
+\definecolor{sectionblue}{RGB}{0, 51, 153} % 经典学术蓝，和截图一致
+\usepackage{enumitem} 
+\usepackage{amssymb}
+% ====================== 超链接配置（全黑无蓝色） ======================
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% ====================== 列表配置 ======================
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=*, itemsep=3pt, topsep=2pt, parsep=0pt}
+% ====================== 核心：板块标题样式（复刻目标风格） ======================
+% 全大写、粗衬线、底部粗黑分割线
+\renewcommand{\section}[1]{
+    \vspace{8pt}
+    \noindent\textbf{\large\rmfamily\textcolor{sectionblue}{\MakeUppercase{#1}}}
+    \vspace{4pt}
+    \hrule height 0.6pt
+    \vspace{8pt}
+}
+
+% 二级小标题
+\newcommand{\subsection}[1]{
+    \vspace{6pt}
+    \noindent\textbf{\large\rmfamily #1}
+    \vspace{4pt}
+
+}
+\begin{document}
+
+
+% ====================== 顶部个人信息（居中，匹配截图）======================
+\begin{center}
+    {\huge\bfseries\rmfamily\textsc{M Li}} \\[4pt]
+    \href{mailto:raphael_li@zuaa.zju.edu.cn}{raphael\_li@zuaa.zju.edu.cn} $\vert$ 
+    {+86 } $\vert$
+    \href{https://lim-0619.github.io/}{lim-0619.github.io}
+\end{center}
+\vspace{-4pt}  % 负数绝对值越大，间距收得越紧，按需调整
+% ====================== 教育背景 ======================
+\section{Education}
+\noindent
+\textbf{Zhejiang University} \hfill Hangzhou, China \\
+M.S. in Mechanical Engineering \hfill Sept 2021 -- Mar 2024 \\
+Advisor: Prof. Xin Li\\
+Research Interests: Bio-inspired Robot Design for Unstructured Environment, Model-based Control\\
+Thesis: Design and Obstacle-crossing Method of Rope-climbing Mobile Robot 
+
+\vspace{6pt}
+\noindent
+\textbf{Zhejiang University} \hfill Hangzhou, China \\
+B.Eng. in Mechatronics Engineering \hfill Sept 2017 -- July 2021 \\
+Major GPA: 3.79/4.00, Top 30\% (72 students) \\
+Thesis: Design of a Water-Film Driven Adhesion Mechanism, Best Undergraduate Thesis Award\\
+
+% ====================== 职业/研究经历 ======================
+\section{Professional Experience}
+\noindent
+\textbf{Guodian Nanjing Automation Co., Ltd. (SAC)} \hfill Nanjing, China \\
+Embedded Engineer, Institute of Embedded Computing Platform \hfill July 2024 -- Present\\
+Duty: Designed embedded computing platforms based on RK3568/RK3588
+for power automation system, supporting real-time condition monitoring and control algorithm execution, deployed in State Grid projects.\\
+
+\noindent
+\textbf{Huawei Technologies Co., Ltd.} \hfill Hangzhou, China \\
+Embedded Software Intern, Computing Product Line \hfill June 2023 -- Oct 2023 \\
+Duty: Participated in system validation of HiSilicon smart NICs on Kunpeng Taishan servers, responsible for test hardware development and Linux environment deployment for cluster computing scenarios.\\
+
+% ====================== 奖项与荣誉 ======================
+\section{Awards \& Honors}
+\begin{itemize}
+    \item \textbf{Outstanding Graduate Award (Master's Program), Zhejiang University}\hfill 2024
+    \item Excellent Intern Award, Huawei Technologies Co., Ltd.\hfill 2023
+    \item Excellent Graduate Scholarship, Zhejiang University \hfill 2022
+    \item \textbf{Best Undergraduate Thesis Award, Zhejiang University}\hfill 2021
+    \item \textbf{Champion (National First Prize) in Small Size League, RoboCup China Open }\hfill 2020
+    \item Second Prize, Zhejiang Provincial Mechanical Design Contest \hfill 2020
+    \item Excellent Undergraduate  Scholarship, Zhejiang University \hfill 2020
+\end{itemize}
+\vspace{6pt}
+% ====================== 发表论文 ======================
+\section{Research Projects \& Publications}
+\noindent
+\textbf{Vibration-Assisted Rope-Climbing Robot} $\vert$ \textit{Project Leader}\hfill May 2022 -- June 2024
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+    \item \textbf{Overview: }Independently designed and prototyped a compact rope-climbing robot with a novel dual-wheel winding rope-gripping mechanism, enabling efficient locomotion in unstructured environments.
+    \item \textbf{Theoretical Analysis: }Established the parametric obstacle-negotiation model, revealed the vibration-assisted obstacle negotiation mechanism based on the time-domain averaging equivalent friction reduction.
+    \item \textbf{Hardware: }Built a hierarchical control architecture consisting of host computer and on-board MCU, integrated FOC motor with encoder, IMU and main motor current sensor for full-state feedback.
+    \item \textbf{Algorithm:} Implemented EKF state estimation, a lightweight FSM for multi-feature condition classification, and online system identification enhanced ESC vibration amplitude control, forming a perception-decision-execution closed loop that significantly boosts obstacle negotiation performance.
+
+
+    \item\textbf{Master Degree Thesis:} Design and Obstacle-crossing Method of Rope-climbing Mobile Robot. Zhejiang University, 2024.
+       \href{https://你的论文链接}{[Full Text]} \href{https://你的代码仓库}{[Code]} \href{https://你的实验视频}{[Video]}
+    
+    \item\textbf{Manuscript in Preparation:} Minghao Li, Xin Li\textsuperscript{*}. ``ROVIN: A Rope-Climbing Robot With Vibration-Assisted Obstacle Negotiation.'', targeted for \textit{IEEE/ASME Transactions on Mechatronics}, 2026.
+
+\end{itemize}
+
+
+
+\noindent
+\textbf{Rope-Aided Single-Arm Robot for Mesh Structures} $\vert$ \textit{Manipulator Control}\hfill July 2021 -- June 2024
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+    \item \textbf{Overview: }Designed and prototyped a rope-aided truss-climbing robot with 6-DOF lightweight manipulator and anti-winding winch for stable locomotion on mesh structures with high payload capacity.
+    \item \textbf{Theoretical Analysis: }Established D-H kinematics (closed-form inverse solution), rigid-body dynamics and dual-rope two-link swing dynamics models.
+    \item \textbf{Hardware: }Built hierarchical control architecture on STM32 + FreeRTOS, integrating FOC drives, SSI encoders and IMU for 200 Hz full-state closed-loop control.
+   \item  \textbf{Algorithm:} Implemented RLS-based adaptive speed controller with KF state observer for encoder noise suppression, improving accuracy.
+\end{itemize}
+\vspace{8pt}
+\noindent
+\textbf{Small-Size Soccer Robot Design for Robocup}  $\vert$ \textit{Hardware Leader} \hfill Sep 2019 -- Mar 2021
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+    \item \textbf{Hardware}: Innovatively designed ball suction and kicking actuator mechanisms to improve ball control stability and dynamic response; completed component selection and PCB redesign for boost power board.
+    \item \textbf{Motion Control: }Participated in overall control architecture design, developed a custom protocol to receive and parse host-side packets, implemented  closed-loop control for all wheel-motors and actuator motors.
+\end{itemize}
+% ====================== 工业项目 ======================
+
+\vspace{6pt}
+\section{INDUSTRIAL PROJECTS \& Patents}
+
+\noindent
+\textbf{Embedded Computing Platform Based on RK3568/RK3588} $\vert$ \textit{Embedded Engineer}\hfill Oct 2024 -- Present
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+   \item \textbf{Overview: }Built a domestically sourced heterogeneous platform based on RK3568/RK3588 SoCs and \\Unigroup FPGAs. Led board hardware design, RT-Thread/Linux driver \& BSP development, and system verification, focusing on high-speed bus integrity, multi-core real-time performance, and driver reliability.
+    \item \textbf{Hardware: }Designed schematics and selected components for ADC sampling, FLASH storage, I2C/I3C/SPI buses, and CPU minimum system. Participated in PCB review, EMC testing and hardware bring-up.
+    \item \textbf{Driver \& BSP: }Developed RT-Thread peripheral drivers (GPIO, SPI, CAN, GMAC, timers, interrupts), shared memory and IPC drivers for AMP architecture, and encapsulated standardized APIs for upper layers.
+   \item  \textbf{Interconnection:} Defined CPU-FPGA GMAC/SPI connection, developed  corresponding bus drivers and packet protocols, and implemented DMA zero-copy data transmission to satisfy strict real-time requirements.
+   \item \textbf{Patents:}
+   \\\textbf{1.Minghao Li} et al. Chip Thermal Simulation System and Pre-evaluation Method for Chip Thermal Design. 
+    [CN] 202610661567.6 (Under Substantive Examination), 2026. \href{}{[Document]}\\
+    \textbf{2.Minghao Li} et al. A Remote Control Method for Multi-peripheral Relay Protection Devices Based on I3C Bus. [CN] 202610589343.9 (Patent Pending), 2026. \href{}{[Document]}\\
+    \textbf{3.Minghao Li} et al. A Construction Method for Data Preprocessing and Cooperative Control System of Relay Protection Devices. [CN] 202610730554.X (Patent Pending), 2026. \href{}{[Document]}
+
+\end{itemize}
+\vspace{8pt}
+\noindent
+\textbf{Smart NIC Validation for Cluster Computing Servers} $\vert$ \textit{Embedded Intern}\hfill June 2023 -- Oct 2023
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+    \item \textbf{Overview}: Participated in testing and validation of HiSilicon-based smart NICs on Kunpeng Taishan servers, covering PCIe interface, driver adaptation and openEuler compatibility for cluster computing. 
+    \item \textbf{Test Hardware Design}: Designed an MCU+CPLD-based test carrier board to emulate chip thermal load and implement automated temperature data acquisition, supporting pre-evaluation of chip thermal design.
+    \item \textbf{System Validation}: Built openEuler Linux test environments, conducted NIC driver adaptation and RoCE RDMA benchmark tests, collaborated with cross-functional teams to root-cause hardware and driver defects.
+\end{itemize}
+\vspace{8pt}
+% ====================== 专业技能 ======================
+\section{Technical Skills}
+\noindent
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0.3em]
+    \item \textbf{Programming Languages:} C/C++, Python, MATLAB, Verilog HDL, \LaTeX
+    
+    \item \textbf{Robotics}
+    \begin{itemize}[label=$\blacksquare$, leftmargin=*, topsep=0.1em, itemsep=0.2em]
+        \item \textbf{Mechanical \& Hardware Design:} Solidworks, ANSYS, Cadence(Allegro/Orcad), Altium Designer.
+        \item \textbf{Software Tools \& Environments: } ROS1/2, Linux, FreeRTOS, Git, CMake, Isaac Gym/Sim
+        
+    \end{itemize}
+\item \textbf{Soft Skills: } Team Cooperation, Project Management, Efficient Communication \\
+\end{itemize}
+ \\
+\end{document}
