@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Minghao Li's Homepage"
 title_separator          : "-"
 name                     : &name "Minghao Li"
@@ -25,8 +25,8 @@ author:
   avatar           : "profile1.png"
   name             : "Minghao Li (李明昊)"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher focusing on robotics and related fields." # 自行修改个人简介
-  location         : "China" # 自行修改所在地
+  bio              : "Robotics Researcher | Embodied Robotics | Mechanism-driven Robotic Systems" # 自行修改个人简介
+  location         : "Nanjing, China" # 自行修改所在地
   employer         : "Guodian Nanjing Automation Co., Ltd." # 自行修改单位/学校
   uri              : # URL
   email            : "raphael_li@zuaa.zju.edu.cn" # 替换为你的邮箱
