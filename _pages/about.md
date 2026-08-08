@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Minghao Li, a robotics researcher currently working as an Embedded Engineer at Guodian Nanjing Automation Co., Ltd. (SAC). I received my M.S. degree in Mechanical Engineering from Zhejiang University in 2024 under the supervision of [Prof. Xin Li](https://person.zju.edu.cn/vortexdoctor#0) , and my B.Eng. degree in Mechatronics Engineering from Zhejiang University in 2021.
+Hello, I am Minghao Li, a robotics researcher currently working as an Embedded Engineer at Guodian Nanjing Automation Co., Ltd. (SAC). I received my M.S. degree in Mechanical Engineering from Zhejiang University in 2024 under the supervision of [Prof. Xin Li](https://person.zju.edu.cn/vortexdoctor) , and my B.Eng. degree in Mechatronics Engineering from Zhejiang University in 2021.
 
 My research interests lie in:
 
