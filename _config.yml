@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Minghao Li's Homepage"
 title_separator          : "-"
 name                     : &name "Minghao Li"
@@ -22,10 +22,10 @@ repository               : "lim-0619/lim-0619.github.io" # 替换为你的仓库
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile1.png"
   name             : "Minghao Li (李明昊)"
   pronouns         : # example: "she/her"  
-  bio              : "Engineer focusing on robotics and related fields." # 自行修改个人简介
+  bio              : "Researcher focusing on robotics and related fields." # 自行修改个人简介
   location         : "China" # 自行修改所在地
   employer         : "Guodian Nanjing Automation Co., Ltd." # 自行修改单位/学校
   uri              : # URL
