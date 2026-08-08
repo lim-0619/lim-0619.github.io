@@ -8,8 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I am Li Minghao. I received my M.Eng. in Mechanical Engineering in 2024 and B.Eng. in Mechatronics Engineering in 2021 from Zhejiang University, under the guidance of Professor Xin Li. Currently, I work as an Embedded Engineer at Guodian Nanjing Automation Co., Ltd. (SAC). I completed a six-month internship at Huawei's Computing Product Line back in 2023. Against this background, I am seeking a PhD opportunity to conduct advanced research in the field of embodied AI.
+I am Minghao Li, a robotics researcher with a background in Mechatronics Engineering at Zhejiang University. I received my M.S. degree in Mechanical Engineering in 2024 under the supervision of Prof. Xin Li. Prior to that, I received my B.Eng. degree in Mechatronics Engineering from Zhejiang University in 2021, with a Best Undergraduate Thesis Award in Mechanical Fields.
 
-My research focuses on developing special robotic platforms to realize autonomous locomotion and task execution in complex unstructured terrains, such as rugged outdoor environments, net structures and staircases. I independently developed a rope-climbing mobile robot and participated in the R&D of a cable-driven self-traction robot. My current research interests lie in integrating intelligence into both special and general robotic platforms, including humanoid robots and dexterous manipulators. I aim to translate theoretical algorithms into practical robotic systems that deliver reliable performance and create tangible application value in real-world environments.
+My research interests lie in:
 
-I firmly believe that outstanding robotics research is built upon solid engineering practice. For this reason, I always prioritize the practical application of my research and remain enthusiastic about tackling new research scenarios and challenges.
+- **Embodied Robotics**
+- **Mechanism-driven Robotic Systems and Physical Intelligence**
+- **Robot Locomotion and Manipulation in Complex Environments**
+- **Model-based Control and State Estimation**
+
+I am interested in developing adaptive robotic systems that integrate robot mechanism design, modeling, sensing, and control to enable reliable interaction with complex real-world environments.
+
+During my master's study, I focused on the design, modeling, and control of robotic systems for challenging environments. I independently developed a Rope-Climbing Robot with vibration-assisted obstacle negotiation through system modeling, multi-sensor perception, motion mode decision, and closed-loop control. This work explored how mechanical mechanisms and control strategies can improve the adaptability of robotic systems under complex environmental conditions.
+
+I also contributed to the development of a Rope-Aided Single-Arm Robot for mesh structures. This project involved robot mechanism design, kinematic and dynamic modeling, and feedback control for reliable motion execution, enabling stable interaction with constrained environments.
+
+Currently, I work as an Embedded Engineer at Guodian Nanjing Automation Co., Ltd. (SAC), where I develop real-time embedded computing platforms and hardware-software systems for industrial applications. This engineering experience further strengthens my interest in bridging physical robotic systems with intelligent algorithms.
+
+My long-term goal is to develop adaptive embodied robotic systems by integrating robot mechanisms, multimodal sensing, and intelligent control methods, enabling reliable interaction and operation in complex environments.
