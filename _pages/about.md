@@ -14,11 +14,12 @@ My research interests lie in:
 
 - **Embodied Robotics**
 - **Mechanism-driven Robotic Systems**
-- **Robot Locomotion and Manipulation in Unstructured surface**
+- **Robot Locomotion and Manipulation in Unstructured environments**
 - **Model-based Control and State Estimation**
 
-I am interested in developing adaptive robotic systems that integrate robot mechanism design, modeling, sensing, and control to enable reliable interaction with complex real-world environments.My main work are include a [Rope-Climbing Robot](https://person.zju.edu.cn/vortexdoctor) with vibration-assisted obstacle negotiation and a [Rope-Aided Single-Arm Robot](https://person.zju.edu.cn/vortexdoctor) for mesh structures. **Now I am towards to add more intelligence in robot by learning in imitate learnig and reenforcement learning**.
- 
+I am interested in developing adaptive robotic systems that integrate robot mechanism design, modeling, sensing, and control to enable reliable interaction with complex real-world environments. My main work includes a [Rope-Climbing Robot](https://person.zju.edu.cn/vortexdoctor) with vibration-assisted obstacle negotiation and a [Rope-Aided Single-Arm Robot](https://person.zju.edu.cn/vortexdoctor) for mesh structures.These projects involve robot mechanism design, system modeling, multi-sensor perception, motion decision, and closed-loop control.
+
+My future research direction is to integrate learning-based methods, including imitation learning and reinforcement learning, into embodied robotic systems to achieve more adaptive and intelligent robot behaviors.
 
 During my master's study, I focused on the design, modeling, and control of robotic systems for challenging environments. I independently developed a Rope-Climbing Robot with vibration-assisted obstacle negotiation through system modeling, multi-sensor perception, motion mode decision, and closed-loop control. 
 I also contributed to the development of a Rope-Aided Single-Arm Robot for mesh structures. This project involved robot mechanism design, kinematic and dynamic modeling, and feedback control for reliable motion execution, enabling stable interaction with constrained environments.
