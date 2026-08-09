@@ -17,7 +17,7 @@ My research interests lie in:
 - **Robot Locomotion and Manipulation in Unstructured environments**
 - **Model-based Control and State Estimation**
 
-I am interested in developing adaptive robotic systems that integrate robot mechanism design, modeling, sensing, and control to enable reliable interaction with complex real-world environments. My main work includes a [Rope-Climbing Robot](https://person.zju.edu.cn/vortexdoctor) with vibration-assisted obstacle negotiation and a [Rope-Aided Single-Arm Robot](https://person.zju.edu.cn/vortexdoctor) for mesh structures.These projects involve robot mechanism design, system modeling, multi-sensor perception, motion decision, and closed-loop control.
+I am interested in developing adaptive robotic systems that integrate robot mechanism design, modeling, sensing, and control to enable reliable interaction with complex real-world environments. My main work includes a [Rope-Climbing Robot](https://person.zju.edu.cn/vortexdoctor) with vibration-assisted obstacle negotiation and a [Rope-Aided Single-Arm Robot](https://person.zju.edu.cn/vortexdoctor) for mesh structures.These projects involve robot mechanism design, system modeling, multi-sensor perception, motion decision, and model-based closed-loop control.
 
 My future research direction is to integrate learning-based methods, including imitation learning and reinforcement learning, into embodied robotic systems to achieve more adaptive and intelligent robot behaviors.
 
